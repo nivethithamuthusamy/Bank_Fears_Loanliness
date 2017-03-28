@@ -1,0 +1,11 @@
+collections_12_mths_ex_med = the more collections, the lesser defaulters
+
+last_week_pay
+
+term
+grade
+home ownership - mortgage
+
+acc_now_delinq
+
+rfmodel <- randomForest(factor(train$loan_status) ~ train$grade + train$term + train$home_ownership)
